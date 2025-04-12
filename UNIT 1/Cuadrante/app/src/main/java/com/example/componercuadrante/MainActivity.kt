@@ -98,8 +98,8 @@ private fun InformacionCuadrante(
 ) {
     Column(
         modifier = modifier
-            .fillMaxSize()// para que ocupe por completo el espacio del cuadrante
-            .background(backgroundColor)// para el fondo del color
+            .fillMaxSize()
+            .background(backgroundColor)
             .padding(16.dp),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
